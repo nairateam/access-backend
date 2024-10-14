@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_missions",
+  "info": {
+    "displayName": "Mission"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    }
+  }
+}

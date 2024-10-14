@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_component_expertise",
+  "info": {
+    "displayName": "Expertise"
+  },
+  "options": {},
+  "attributes": {
+    "expertise": {
+      "type": "text"
+    }
+  }
+}

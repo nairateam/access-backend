@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_f_ooters",
+  "info": {
+    "displayName": "fOOTER"
+  },
+  "options": {},
+  "attributes": {
+    "FooterLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "NavigationLinks": {
+      "displayName": "Navigation Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.navigation-links"
+    },
+    "SocialLink": {
+      "displayName": "Social Media Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.social-media-links"
+    }
+  }
+}

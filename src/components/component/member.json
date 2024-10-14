@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_members",
+  "info": {
+    "displayName": "Member"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Fullname": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "information": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_service_category_holders",
+  "info": {
+    "displayName": "Service Category Holder"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

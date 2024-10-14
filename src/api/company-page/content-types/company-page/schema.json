@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_pages",
+  "info": {
+    "singularName": "company-page",
+    "pluralName": "company-pages",
+    "displayName": "Company Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CompanyTopSection": {
+      "displayName": "Top Images",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.top-images"
+    },
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SecondSection": {
+      "displayName": "Company Second Section",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.company-second-section"
+    },
+    "Misson": {
+      "displayName": "Mission",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.mission"
+    },
+    "GroupTeam": {
+      "displayName": "Group Team",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.group-team"
+    },
+    "CoreValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.key-steps"
+    },
+    "OurExpertise": {
+      "displayName": "Our Expertise",
+      "type": "component",
+      "repeatable": false,
+      "component": "component.our-expertise"
+    }
+  }
+}

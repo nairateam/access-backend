@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_top_navigations",
+  "info": {
+    "displayName": "Top Navigation"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.logo-link"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}

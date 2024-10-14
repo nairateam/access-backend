@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_hero_headings",
+  "info": {
+    "displayName": "Hero Heading"
+  },
+  "options": {},
+  "attributes": {
+    "Prefix": {
+      "type": "string"
+    },
+    "HeadingText": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "DynamicTexts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.dynamic-texts"
+    }
+  }
+}

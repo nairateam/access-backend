@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_component_offers",
+  "info": {
+    "displayName": "Offer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "IconImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "OfferTitle": {
+      "type": "string"
+    },
+    "OfferItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.offer-list"
+    }
+  }
+}

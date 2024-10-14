@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_elements_step_items",
+  "info": {
+    "displayName": "Step Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "StepItem": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

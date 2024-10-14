@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_group_teams",
+  "info": {
+    "displayName": "Group Team"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "member": {
+      "displayName": "Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.member"
+    }
+  }
+}

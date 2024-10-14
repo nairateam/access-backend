@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_value_propositions",
+  "info": {
+    "displayName": "Value Proposition"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.value-card"
+    },
+    "ValueBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.value-banner-section"
+    }
+  }
+}

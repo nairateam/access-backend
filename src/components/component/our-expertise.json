@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_component_our_expertises",
+  "info": {
+    "displayName": "Our Expertise"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Expertise": {
+      "displayName": "Expertise",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.expertise"
+    }
+  }
+}

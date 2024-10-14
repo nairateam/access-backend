@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_layout_services_heroes",
+  "info": {
+    "displayName": "Services Hero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

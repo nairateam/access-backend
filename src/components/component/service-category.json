@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_service_categories",
+  "info": {
+    "displayName": "Service Category"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    },
+    "serviceCategory": {
+      "displayName": "Service Category Holder",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.service-category-holder"
+    }
+  }
+}

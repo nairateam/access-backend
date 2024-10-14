@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_value_banner_sections",
+  "info": {
+    "displayName": "Value Banner Section"
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Hours": {
+      "type": "string"
+    }
+  }
+}

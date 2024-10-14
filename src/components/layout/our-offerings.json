@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_our_offerings",
+  "info": {
+    "displayName": "Our Offerings",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "OfferHeading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "OfferingCard": {
+      "displayName": "Offering",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.offering"
+    }
+  }
+}

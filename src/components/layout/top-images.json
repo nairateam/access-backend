@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_top_images",
+  "info": {
+    "displayName": "Top Images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    }
+  }
+}

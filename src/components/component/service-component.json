@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_service_components",
+  "info": {
+    "displayName": "Service Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

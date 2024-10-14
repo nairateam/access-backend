@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_company_second_sections",
+  "info": {
+    "displayName": "Company Second Section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "FirstDescription": {
+      "type": "text"
+    },
+    "SecondDescription": {
+      "type": "text"
+    }
+  }
+}

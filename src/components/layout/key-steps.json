@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_key_steps",
+  "info": {
+    "displayName": "Key Steps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.icon-heading"
+    },
+    "value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.step-item"
+    }
+  }
+}

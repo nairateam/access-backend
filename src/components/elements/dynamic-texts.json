@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_elements_dynamic_texts",
+  "info": {
+    "displayName": "Dynamic Texts"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    }
+  }
+}

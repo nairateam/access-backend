@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_icon_headings",
+  "info": {
+    "displayName": "Icon Heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Heading": {
+      "type": "string"
+    }
+  }
+}

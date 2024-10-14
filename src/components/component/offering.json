@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_component_offerings",
+  "info": {
+    "displayName": "Offering"
+  },
+  "options": {},
+  "attributes": {
+    "OfferIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "OfferingTitle": {
+      "type": "string"
+    },
+    "OfferingList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.offer-list"
+    }
+  }
+}

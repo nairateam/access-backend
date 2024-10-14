@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_top_footers",
+  "info": {
+    "displayName": "Top Footer"
+  },
+  "options": {},
+  "attributes": {
+    "Phrase": {
+      "type": "text"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.link"
+    }
+  }
+}
